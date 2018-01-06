@@ -1,0 +1,39 @@
+{
+  "name": "electron-react-quick-start",
+  "version": "1.0.0",
+  "description": "Simple Electron & React starter kit",
+  "main": "main.js",
+  "scripts": {
+    "start": "cross-env NODE_ENV=test electron .",
+    "prod": "rollup -c && electron .",
+    "compile": "rollup -c",
+    "pack:win": "electron-builder --dir --win",
+    "pack:mac": "electron-builder --x64 --mac",
+    "pack:linux": "electron-builder --linux",
+    "pack:all": "electron-builder -mwl"
+  },
+  "keywords": ["Electron", "quick", "start", "tutorial", "demo", "react"],
+  "author": "Enishowk",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.1.2",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "cross-env": "^5.1.3",
+    "electron-builder": "^19.52.1",
+    "electron-reload": "^1.2.2",
+    "rollup": "^0.53.3",
+    "rollup-plugin-babel": "^3.0.3",
+    "rollup-plugin-uglify": "^2.0.1",
+    "uglify-es": "^3.3.4"
+  },
+  "dependencies": {
+    "babel-register": "^6.26.0",
+    "electron": "~1.7.8",
+    "prop-types": "^15.6.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2"
+  }
+}
