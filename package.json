@@ -12,7 +12,14 @@
     "pack:linux": "electron-builder --linux",
     "pack:all": "electron-builder -mwl"
   },
-  "keywords": ["Electron", "quick", "start", "tutorial", "demo", "react"],
+  "keywords": [
+    "Electron",
+    "quick",
+    "start",
+    "tutorial",
+    "demo",
+    "react"
+  ],
   "author": "Enishowk",
   "license": "MIT",
   "devDependencies": {
@@ -30,7 +37,7 @@
   },
   "dependencies": {
     "babel-register": "^6.26.0",
-    "electron": "~1.7.8",
+    "electron": "^1.7.12",
     "prop-types": "^15.6.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
